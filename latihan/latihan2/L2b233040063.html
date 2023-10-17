@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <title>form + tabel</title>
+    </head>
+<body>
+ <table width=70%" border="1" cellpadding="7" align="center">
+    <tr>
+        <td colspan="3" align="center" style="background-color: gray;"><b>INPUT DATA MAHASISWA</B></td>
+    </tr>
+    <tr>
+        <td align="center">Username</td>
+        <td align="center">:</td>
+        <td align="center">
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Password</td>
+        <td align="center">:</td>
+        <td align="center">
+            <input type="password">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Fullname</td>
+        <td align="center">:</td>
+        <td align="center">
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">E-mail</td>
+        <td align="center">:</td>
+        <td align="center">
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Agama</td>
+        <td align="center">:</td>
+        <td align="center">
+            <select>
+                <option name="agama" selected align="center">--Pilih Agama--</option>
+                <option value="Islam" align="center">Islam</option>
+                <option value="Katholik" align="center">Katholik</option>
+                <option value="protestan" align="center">protestan</option>
+                <option value="hindu" align="center">Hindu</option>
+                <option value="buddha" align="center">Budha</option>\
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Jenis Kelamin</td>
+        <td align="center">:</td>
+        <td align="center">
+            <input type="radio" name="JenisKel" value="pria" />Laki-Laki
+            <input type="radio" name="JenisKel" value="perempuan" />Perempuan
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Hobi</td>
+        <td align="center">:</td>
+        <td>
+            <input type="checkbox" name="hobi" value="Musik" />Musik
+            <input type="checkbox" name="hobi" value="Olahraga" />Olahraga
+            <input type="checkbox" name="hobi" value="Gaming" />Gaming
+            <input type="checkbox" name="hobi" value="lainya" />Lainnya
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Profil Singkat</td>
+        <td align="center">:</td>
+        <td>
+            <form align="center">
+                <textarea rows="4" cols="35" name="profil" align="center">
+                </textarea>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" align="right">
+        <form>
+            <input type="submit" nmae="submir" value="submit" />
+        </form>
+        </td>
+    </tr>
+ </table>
+    
+</body>
