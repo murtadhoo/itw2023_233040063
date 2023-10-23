@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+    font-family:Georgia;
+}
+h1 {
+    font-family:comic sans ms;
+    font-size: 60px;
+    color:darkblue;
+}
+.RataKanan{text-align: right;}
+h4{
+    font-style: italic;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}

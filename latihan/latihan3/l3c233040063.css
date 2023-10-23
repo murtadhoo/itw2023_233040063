@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+h1{
+    font-family: comic sans ms;
+    font-size: 60px; 
+    text-align: center;   
+    color: darkblue;
+}
+p {
+    font-family: Georgia;
+}
+.p1 {
+    color: orange;
+}
+.ratatengah{
+    text-align: center;
+}
+.p2{
+    text-align: center;
+}
+.link{
+    color:white;
+}
+.link:hover{
+    color:red;
+
+}
+.link2:hover{
+    color: white;
+    background-color: blue;
+}
+
