@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 60%;
+            height: 600px;       
+            border: 10px solid black;
+            margin: 50px auto;
+            display: flex;
+            justify-content: center; space-evenly;
+            align-items: center;
+            gap: 5px;
+        }   
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+        
+</body>
+</html>
