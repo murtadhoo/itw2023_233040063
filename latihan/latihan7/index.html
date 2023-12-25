@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+
+    <header class="header">
+
+        <div class="hero">
+            <h2>Coffee Shop</h2>
+            <p class="sub-heading">Coffee</p>
+        </div>
+        
+        <div class="features feature-1">
+            <h4 class="price">IDR 200k</h4>
+            <p class="item">Arabika</p>
+        </div>
+        <div class="features feature-2">
+            <h4 class="price">IDR 150k</h4>
+            <p class="item">Robusta</p>
+        </div>
+    </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="brand">
+            <h1>Coffe Shop</h1>
+            </div>
+            
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                    <h3>Arabica</h3>
+                    <p>Arabica coffee ( Coffea arabica ), also known as Arabic coffee , Arabian bush coffee , or mountain coffee , is a species of the genus Coffea .</p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                    <h3>Robusta</h3>
+                    <p>Robusta coffee (Latin name Coffea canephora or Coffea robusta ) is a descendant of several coffee species , especially Coffea canephora .</p>
+            </div>
+        </section>
+
+        <!-- <section class="gallery"> -->
+            <!-- <h2>Gallery</h2> -->
+            <!-- <img src="img/hero2.jpg"> -->
+        <!-- </section> -->
+        
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector ('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('slide');
+}) 
+
+    </script>
+</body>
+</html>

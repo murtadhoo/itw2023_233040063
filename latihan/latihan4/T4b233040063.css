@@ -105,9 +105,9 @@ body {
 .hero2{
     height: 350px;
     background-image: url(img/mazda1.jpg);
-    background-size: cover;
-    background-position: 0px -150px;
-    border: 2px solid black;
+
+
+
 }
 .hero3 {
     height: 300px;
@@ -118,10 +118,10 @@ body {
 }
 
 .hero4 {
-    height: 350px;
-    background-image: url(img/mazda3.jpg);
-    background-size: cover;
-    background-position: 0px ;
+        
+        
+        
+        
     border: 2px solid black;
 }
 
